@@ -34,6 +34,7 @@ nav {
 	display: block;
 	transition: top .3s;
 	z-index: 500;
+	font-size: 1.3em;
 }
 
 .title {
@@ -42,9 +43,13 @@ nav {
 	width: 30%; 
 	padding-bottom: 1px;
 	padding-right: 20px;
-	font-size: 2em;
+	font-size: 1.4em;
+	font-weight: bolder;
 	font-variant: small-caps;
 	border-radius: 0 0 10px 10px;
+ }
+.title a {
+	color: #64868b;
 }
 
 .header ul {
@@ -57,7 +62,7 @@ nav {
 
 .header ul li {
 	list-style: none;
-	width: calc(100% / 4);
+	width: calc(100% / 3);
 	height: 100%;
 	float: left;
 }
@@ -75,11 +80,15 @@ nav {
 	padding-top: 2px;
 	color: black;
 	background: #ff5722;
-	border-radius: 0 0 10px 10px;
 	transition: .2s;
 	height: 100%;
 }
-
+ul li .n1:hover {
+	border-radius: 0 0 0 10px;
+}
+ul li .n3:hover {
+	border-radius: 0 0 10px 0;
+}
 /* MAIN */
 
 .space {
@@ -286,7 +295,7 @@ main {
 .card1 p {
 	font-size: 1.3em;
 	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 45px;
 	width: 95%;
 	margin: auto;
 
@@ -347,7 +356,7 @@ main {
 }
 
 .pdua img {
-	width: 50%;
+	width: 40%;
 	float: left;
 	margin-right: 10px;
 	/* -webkit-clip-path: polygon(0 0,90% 0,100% 100%,0 100%); */
@@ -390,7 +399,7 @@ main {
 	margin: auto;
 	height: 20em;
 	background-size: cover;
-	background-image: url(img/desa6.png);
+	background-image: url(img/desa3.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 10px;
