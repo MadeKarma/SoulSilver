@@ -377,7 +377,7 @@ main {
 	height: 20em;
 	background-size: cover;
 	margin-bottom: 12px;
-	background-image: url(img/desa1.png);
+	background-image: url(../img/desa1.png);
 	background-repeat: no-repeat;
 	background-position: 0 -200px;
 	border-radius: 10px;
@@ -388,7 +388,7 @@ main {
 	margin: auto;
 	height: 20em;
 	background-size: cover;
-	background-image: url(img/desa2.png);
+	background-image: url(../img/desa2.png);
 	background-repeat: no-repeat;
 	background-position: 0 -100px;
 	border-radius: 10px;
@@ -399,7 +399,7 @@ main {
 	margin: auto;
 	height: 20em;
 	background-size: cover;
-	background-image: url(img/desa3.png);
+	background-image: url(../img/desa3.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 10px;
