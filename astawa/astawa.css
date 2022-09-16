@@ -1,0 +1,138 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "arial";
+    color: white;
+}
+
+body{
+    background-color: #16213E;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F3460;
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    padding-left: 5px;
+    font-weight: bold;
+    color: silver;
+}
+
+.lastname {
+    font-weight: bold;
+    color: silver;
+    padding-left: 4px;
+}
+
+.navigation {
+    display: flex;
+    font-size: 20px;
+}
+
+.navigation li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navigation li a{
+    text-decoration: none;
+}
+
+.navigation li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.about img{
+    width: 45%;
+    border: 2px silver solid;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 3px;
+}
+
+.about p{
+    padding-top: 120px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about p i{
+    color: red;
+    text-transform: capitalize;
+}
+
+.projects {
+    text-align: center; 
+}
+
+.projects ul li{
+    margin: 10px;
+}
+.projects ul li a{
+    border: 2px silver solid;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.projects ul li a:hover{
+    border: 2px maroon solid;
+    color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tengah {
+    align-content: center;
+}
+
+.tutor-list{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    border: 3px silver solid;
+    padding: 3px;
+    border-radius: 30%;
+    width: 80%;
+} 
+
+.kartu-tutor p {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
